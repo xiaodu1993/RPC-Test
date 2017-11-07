@@ -1,11 +1,13 @@
+package example;
+
 import java.io.IOException;
 import java.net.InetSocketAddress;
 
-import client.RPCClient;
-import server.Server;
-import server.ServiceCenter;
-import service.HelloService;
-import service.HelloServiceImpl;
+import example.client.RPCClient;
+import example.server.Server;
+import example.server.ServiceCenter;
+import example.service.HelloService;
+import example.service.HelloServiceImpl;
 
 /**
  * @author maobing.dmb
